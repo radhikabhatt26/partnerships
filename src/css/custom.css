@@ -116,10 +116,39 @@
   font-weight: bold;
 }
 
-.download-toolkit i{
-margin-right: 5px;
+.img-toolkit {
+  border: 2px solid #F3F3F3;
 }
 
 .container > form {
   color: black;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #0277bf;
+    border-color: #0277bf;
+    letter-spacing: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 920px) {
+.white-div h3 {
+    margin: 20px 20px 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+.white-div p {
+    margin:20px 20px 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .btn-primary {
+    margin: 0 20px 0 20px;
+  }
+
